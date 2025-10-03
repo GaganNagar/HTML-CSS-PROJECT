@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+    
+}
+.nav-hover-border{
+    border: 1.5px solid transparent;
+}
+.nav-hover-border:hover{
+border: 1.5px solid white;
+
+}
+
+.navbar{
+    background-color:#0f1111;
+    height:60px ;
+    /* display: flex; */
+
+}
+.nav-top{
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+/* box1 */
+.nav-logo{
+    height: 50px;
+    width: 113px;
+    
+}
+.logo {
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+/* box2 */
+.nav-add{
+    display: flex;
+    align-items: end;
+}
+.nav-add-logo{
+    color: #f1f1f1;
+    height: 20px;
+    margin-right: 5px;
+}
+.nav-add-text{
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+.nav-add-text .first-text{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.nav-add-text .sec-text{
+font-size: 1rem;
+font-weight: 600;
+}
+
+/* box3 */
+
+.nav-search{
+    background-color: pink;
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius:4px ;
+    justify-content: space-evenly;
+    
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.signin{
+    color: #f1f1f1;
+}
+.signin span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.return{
+    color: #f1f1f1;
+}
+.return span{
+    font-size: 0.7rem;
+}
+.nav-cart{
+    color: #f1f1f1;
+}
+.nav-cart i{
+    font-size: 30px;
+}
